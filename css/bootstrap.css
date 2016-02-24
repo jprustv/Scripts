@@ -1130,7 +1130,7 @@ img {
 }
 .img-thumbnail {
   display: inline-block;
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
   padding: 4px;
   line-height: 1.42857143;
@@ -1595,6 +1595,20 @@ pre code {
   overflow-y: scroll;
 }
 .container {
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.side-bar {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.container-middle {
+  background-color: #c9e2b3;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -1642,6 +1656,22 @@ pre code {
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
+}
+.container-fluid-with-baackground {
+  background-color: #decc8b;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20px;
+}
+.container-fluid-with-baackground2 {
+  background-color: #deb863;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20px;
 }
 .row {
   margin-right: -15px;
@@ -1973,6 +2003,12 @@ pre code {
   }
   .col-md-12 {
     width: 100%;
+  }
+  .col-md-soon {
+    margin-top: 30px;
+    border-style: solid;
+    font-size: xx-large;
+    width: 70%;
   }
   .col-md-11 {
     width: 91.66666667%;
