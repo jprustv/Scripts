@@ -1661,6 +1661,7 @@ pre code {
   background-color: #decc8b;
   padding-right: 0px;
   padding-left: 0px;
+  padding-bottom:15px;
   margin-right: auto;
   margin-left: auto;
   margin-top: -20px;
@@ -1668,12 +1669,18 @@ pre code {
 .container-fluid-with-baackground2 {
   background-color: #deb863;
   padding-right: 0px;
+  padding-top: 15px;
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
   margin-top: -20px;
 }
 .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row2 {
+  margin-top: 15px;
   margin-right: -15px;
   margin-left: -15px;
 }
