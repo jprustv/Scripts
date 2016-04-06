@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.css.map" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="JQuery/crud.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/npm.js"></script>
 
     <title>Risk Your Life Private Server</title>
 
@@ -137,11 +138,11 @@
              <div class="col-md-2">
                 <b><h1>Ranking</h1></b>
 
-                DarkSpartan 10530
-                LionHeart &nbsp&nbsp&nbsp&nbsp&nbsp 9200
-                Johnny &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp9142
-                alexisjj &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 5600
-                dota0255 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 4000
+                DarkSpartan &nbsp; 10530
+                LionHeart &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9200
+                Johnny &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9142
+                alexisjj &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5600
+                dota0255 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4000
 
             </div>
         </row>
@@ -152,6 +153,19 @@
                 <a href="#">[Patch 1.1.2.0] Corrigidos vários bugs</a><br>
                 <a href="#">[Patch 1.1.1.5] Adicionado Guild War</a><br>
                 <a href="#">[Evento] EXP e Drop Rates em dobro durante o carnaval </a><br>
+                <br>
+                <div class = "addNoticiaBox">
+                    <input type = "text" id ="txtassunto" value ="Assunto"><br>
+                    <input type = "text" id ="txtmsg" value = "Mensagem"><br>
+                    <input type = "datetime" id = "txtdata" value = "Data"><br>
+                </div>
+                <br>
+                <br>
+                <row>
+                    <button id = "addnoticia" type = "submit" class ="btn">+ Adicionar Notícia</button>
+                    <button id = "removernoticia" type = "submit" class ="btn"> - Remover Notícia</button>
+                </row>
+
             </div>
 
         </row>
